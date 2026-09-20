@@ -533,7 +533,7 @@ body {
 }
 
 [data-theme="light"] .title-gradient {
-  background: linear-gradient(135deg, #0A1F44 15%, #0066FF 65%, #00D4FF 100%);
+  background: linear-gradient(135deg, #0A1F44 20%, #0052cc 60%, #0066FF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -987,6 +987,15 @@ body {
   color: #ffffff;
   line-height: 1.2;
   margin-bottom: 1.2rem;
+}
+
+.section-title .title-gradient {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  display: inline;
 }
 
 .section-desc {
